@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assests/me.jpg'
+
 import {FaWrench} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {FaUserGraduate} from 'react-icons/fa'
