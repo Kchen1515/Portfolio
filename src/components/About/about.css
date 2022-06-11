@@ -2,6 +2,9 @@
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
+    border: 1px solid magenta;
+    
+    justify-content: center;
 
 }
 
@@ -107,5 +110,8 @@
         text-align: center;
     }
 
-    
+    .about_content p{
+        margin: 1.5rem 0;
+    }
 }
+
