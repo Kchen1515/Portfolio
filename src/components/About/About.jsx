@@ -1,9 +1,10 @@
 import React from 'react'
 import './about.css'
-import me from '../../assests/me.jpg'
+import ME from '../../assests/me.jpg'
 import {FaWrench} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {FaUserGraduate} from 'react-icons/fa'
+import Kong from '../../assests/kong.jpg'
 
 
 
@@ -15,7 +16,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={me}alt="a" />
+            <img src={Kong} alt="a" />
           </div>
 
         </div>
@@ -33,6 +34,8 @@ const About = () => {
               <FiUsers className='about__icon'/>
               <h5>Programs</h5>
               <small>Scrimba</small>
+              <small>Codecademy</small>
+              <small>Udemy</small>
             </article>
 
             <article className='about__card'>
