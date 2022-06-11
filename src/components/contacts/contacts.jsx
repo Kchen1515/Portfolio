@@ -1,10 +1,10 @@
 import React from 'react'
 import './contacts.css'
 
-const contacts = () => {
+const  Contacts = () => {
   return (
     <div>contacts</div>
   )
 }
 
-export default contacts
+export default Contacts
