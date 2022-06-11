@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
-    border: 1px solid magenta;
+   
     
     justify-content: center;
 
@@ -71,13 +71,7 @@
     color: var(--color-light);
 }
 
-.about__container{
-   
-}
 
-.about__me{
-    
-}
 
 @media screen and (max-width: 1024px) {
     .about__container{
