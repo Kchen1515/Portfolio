@@ -15,7 +15,7 @@ const Portfolio = () => {
           <div className='portfolio__item-image'>
             <img src={ecommerce} alt="ecommerce website"></img>
           </div>
-          <h3>This is portfolio item title</h3>
+          <h3>ROTN - Ecommerce</h3>
           <div className='portfolio__item-cta'>
             <a href="https://github.com" className='btn'  target="_blank" rel="noopener noreferrer">Github</a>
             <a href="https://github.com" className='btn btn-primary'  target="_blank"rel="noopener noreferrer">Live Demo</a>
@@ -25,7 +25,7 @@ const Portfolio = () => {
           <div className='portfolio__item-image'>
             <img src={poke} alt="pokedex"></img>
           </div>
-          <h3>This is portfolio item title</h3>
+          <h3>Gotta Catch 'Em All</h3>
           <div className='portfolio__item-cta'>
             <a href="https://github.com" className='btn'  target="_blank" rel="noopener noreferrer">Github</a>
             <a href="https://github.com" className='btn btn-primary'  target="_blank"rel="noopener noreferrer">Live Demo</a>
