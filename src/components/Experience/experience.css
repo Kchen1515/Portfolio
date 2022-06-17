@@ -30,11 +30,15 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
+   
 }
 
 .experience__details{
     display: flex;
-    gap: 1rem
+    gap: 1rem;
+    justify-content: center;
+  
+    
 }
 
 .experience__details-icon{

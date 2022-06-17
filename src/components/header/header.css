@@ -84,3 +84,7 @@ header{
 .scale-btn:hover{
     transform: scale(1.5);
 }
+
+.my_name{
+    font-size: 4rem;
+}

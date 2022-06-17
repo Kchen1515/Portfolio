@@ -2,23 +2,24 @@ import React from 'react'
 import './portfolio.css'
 import ecommerce from '../../assests/ecommerce.png'
 import poke from '../../assests/pokedex.jpg'
+import Rock from '../../assests/Rock.PNG'
 
 
 
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h5>Projects</h5>
-      <h2>Portfolio</h2>
+      
+      <h2>PROJECTS</h2>
       <div className='container portfolio__container'>
         <article className='portfolio__item' >
           <div className='portfolio__item-image'>
             <img src={ecommerce} alt="ecommerce website"></img>
           </div>
-          <h3>ROTN - Ecommerce</h3>
+          <h3>Vault KYC</h3>
           <div className='portfolio__item-cta'>
-            <a href="https://github.com" className='btn'  target="_blank" rel="noopener noreferrer">Github</a>
-            <a href="https://github.com" className='btn btn-primary'  target="_blank"rel="noopener noreferrer">Live Demo</a>
+            <a href="https://github.com/Kchen1515/rythmn" className='btn'  target="_blank" rel="noopener noreferrer">Github</a>
+            <a href="http://www.kycvaullt.com/"className='btn btn-primary'  target="_blank"rel="noopener noreferrer">Live Demo</a>
           </div>
         </article>
         <article className='portfolio__item' >
@@ -33,12 +34,12 @@ const Portfolio = () => {
         </article>
         <article className='portfolio__item' >
           <div className='portfolio__item-image'>
-            <img src={ecommerce} alt="ecommerce website"></img>
+            <img src={Rock} alt="ecommerce website"></img>
           </div>
-          <h3>This is portfolio item title</h3>
+          <h3>Eight Gates Fitness</h3>
           <div className='portfolio__item-cta'>
-            <a href="https://github.com" className='btn'  target="_blank" rel="noopener noreferrer">Github</a>
-            <a href="https://github.com" className='btn btn-primary'  target="_blank" rel="noopener noreferrer">Live Demo</a>
+            <a href="https://github.com/Kchen1515/eightgates" className='btn'  target="_blank" rel="noopener noreferrer">Github</a>
+            <a href="http://www.eightgatesfitness.com/" className='btn btn-primary'  target="_blank" rel="noopener noreferrer">Live Demo</a>
           </div>
         </article>
       </div>

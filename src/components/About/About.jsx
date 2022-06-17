@@ -11,8 +11,8 @@ import Kong from '../../assests/kong.jpg'
 const About = () => {
   return (
     <section id="about" >
-      <h5>Get to Know</h5>
-      <h2>About Me</h2>
+      
+      <h2>ABOUT ME</h2>
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
@@ -45,8 +45,32 @@ const About = () => {
             </article>
 
           </div>
-
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, enim alias iste minima magnam incidunt eligendi? Quaerat, totam pariatur autem, nostrum rem tempore impedit expedita labore culpa voluptatibus unde numquam!</p>
+          <div className='gap'>
+            <p className='community'>
+              Hi there! My name is <strong>Kong Yu</strong>, I am a front-end developer 
+              who is passionate about creating impactful
+              applications.
+            </p> 
+          
+            <p className='community'>
+              I was always fascinated about turning incredible ideas into life changing applications 
+              but I never believed that I was capable of it so I went down the road of health care and became a <strong>pharmacist. </strong> 
+               Throughout pharmacy school, I fell in love with interacting with the commuinty, participating in wellness clinics, giving presentations at
+              boys and girls club and just overall being a helping hand. However, after I obtained my license and stated working, I realized that I was apart
+              of a system that valued the dollar more than the people and decided to make a career change. I chose software engineering and dove in head first. 
+            </p>
+            <p  className='community'>
+              I have been self-teaching for a couple of months now and I can confidently say that if nothing else, <strong>"I know how to center a div."</strong> All jokes aside I love software development.
+              While I don't love spending hours looking for a singular missing comma somewhere, seeing a blank webpage come to life is very rewarding. I chose to start by learning front-end development
+              thorugh a company called <strong>Scrimba</strong> that offered a Complete Front-End Career Path focusing on the core technologies of HTML, CSS, JavaScript and React. Along the way, I have taken time
+              to look into other programming languages like python and just delving deeper into other related topics. The amount of information seems infintie to me and
+              has honestly kept me up at night but with excitement rather than fear.   
+            </p>
+            <p className='community'>
+              <strong> Project-based learning </strong>is an invaluable approach that has helped me apply what I learn as I progress. The projects I have bulit reflect my interest and hobbies which are mainly <strong>basketball, working out, my friends and most of all Anime! </strong> 
+              One of my goals as a developer is to eventually curate the skills necessary to creat my own anime streaming service!
+            </p>
+          </div>
           <a href='#contact' className="btn btn-primary" >Let's Talk</a> 
         </div>
       </div>
