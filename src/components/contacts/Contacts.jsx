@@ -33,14 +33,14 @@ const  Contacts = () => {
           <article className='contact__option'>
             <AiOutlineMail className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>kychen249@gmail.com</h5>
+            <h5 className='email'>kychen249@gmail.com</h5>
             <a href="mailto:kychen249@gmail.com" target="_blank" rel="noopener noreferrer">Send a message</a>
             
           </article>
           <article className='contact__option'>
             <FaFacebookMessenger className='contact__option-icon'/>
             <h4>Messenger</h4>
-            <h5>kychen249@gmail.com</h5>
+            <h5 className='email'>kychen249@gmail.com</h5>
             <a href="https://m.me/kongyu.chen.5/" target="_blank" rel="noopener noreferrer">Send a message</a>
             
           </article>
