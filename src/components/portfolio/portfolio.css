@@ -21,18 +21,26 @@
 .portfolio__item-image{
     border-radius: 1.5rem;
     overflow: hidden;
+ 
 }
-
+.lop{
+    width: 100%;
+    height: 250px
+}
 .portfolio__item h3{
-    margin: 1.2rem 0 2rem;
+    margin: 1.2rem 0 1rem;
 }
 
 .portfolio__item-cta{
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
+.nlop{
+    margin-top: 2.7rem;
+}
 
 
 @media screen and (max-width: 1024px) {
