@@ -47,7 +47,7 @@ form{
 }
 
 .email{
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
 input,
@@ -61,7 +61,7 @@ textarea{
     color: var(--color-white)
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1350px) {
     .container.contact__container{
         grid-template-columns: 1fr;
         gap:2rem;
@@ -73,7 +73,7 @@ textarea{
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 600px) {
     .container.contact__container{
         width: var(--container-width-ms);
     }
