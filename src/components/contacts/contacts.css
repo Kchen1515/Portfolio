@@ -46,6 +46,10 @@ form{
 
 }
 
+.email{
+    font-size: 1rem;
+}
+
 input,
 textarea{
     width: 100%;
@@ -62,16 +66,28 @@ textarea{
         grid-template-columns: 1fr;
         gap:2rem;
     }
+    .email{
+        font-size: 0.75rem;
+    }
+   
+    
+   
+}
+@media screen and (max-width: 900px) {
+    .email{
+        font-size: 0.75rem;
+    }
+   
 }
 
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 1300px) {
     .container.contact__container{
         width: var(--container-width-ms);
     }
+    
+    
 }
    
 
 
-.email{
-    font-size: 1.25rem;
-}
